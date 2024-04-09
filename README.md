@@ -14,7 +14,8 @@ This project is useful for those who are interested in mathematics, programming,
 1. Download the repository with the "Encode/Decode" project.
 2. Run the script using the python compiler on your device.
 3. Enter the number you want to recode, and enter the bases through "#" where all bases except the last one should not be greater than 10 bases.
-4. Get the results of the number conversion using various calculus systems.
+4. Enter mod work: "c" for encode or "d" for decode
+5. Get the results of the number conversion using various calculus systems.
 
 ## Where can I get additional help if I need it?
 
