@@ -1,22 +1,80 @@
 # Encoder-Decoder
-Project for Encode or Decode number for safety
 
-## What does this project do?
+This project is a simple graphical application that allows users to encode or decode strings based on a custom algorithm. The application is built using Python's `tkinter` library for the GUI and `re` for regular expressions.
 
-The Encode/Decode project is a tool for encoding and decoding numbers using multiple translations into various calculus systems. This tool allows the user to convert numbers from one calculus system to another by sequentially recoding them using several basic calculus systems.
+## Features
 
-## How is this project useful?
+- Encode and decode text strings.
+- Copy the result and key to the clipboard.
+- Support for custom encoding and decoding logic.
+- User-friendly GUI with help and instructions.
 
-This project is useful for those who are interested in mathematics, programming, or just want to deepen their knowledge of mathematical analysis systems. It helps users understand the principles of translating numbers between different mathematical analysis systems, and also provides an opportunity to practice in this area.
+## Requirements
 
-## Where should I start?
+- Python 3.x
+- `tkinter` (usually comes pre-installed with Python)
+- `re` module (standard Python library)
 
-1. Download the repository with the "Encode/Decode" project.
-2. Run the script using the python compiler on your device.
-3. Enter the number you want to recode, and enter the bases through "#" where all bases except the last one should not be greater than 10 bases.
-4. Enter mod work: "c" for encode or "d" for decode
-5. Get the results of the number conversion using various calculus systems.
+## Installation
 
-## Where can I get additional help if I need it?
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/yourusername/encoder-decoder.git
+    cd encoder-decoder
+    ```
 
-If you have any questions or need additional help when using the Encode/Decode project, please review the documentation in the project repository or ask your question in the "Problems" section on GitHub. Our team will be happy to help you figure out and solve any problems that arise."
+2. (Optional) Create and activate a virtual environment:
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3. Run the application:
+    ```bash
+    python main.py
+    ```
+
+## Usage
+
+1. Open the application:
+    ```bash
+    python main.py
+    ```
+
+2. Enter the string you want to encode or decode in the "enter string" field.
+
+3. Enter the key code in the "enter key code" field. The key code must follow specific rules, which can be found in the help section of the application.
+
+4. Choose the processing mode ("Encode" or "Decode") by clicking the corresponding button.
+
+5. Choose the reading mode ("Number" or "String") by clicking the corresponding button.
+
+6. Click the "start encoding" or "start decoding" button to process the string.
+
+7. The result will be displayed in a new window. You can copy the result or the key to the clipboard using the provided buttons.
+
+## Help and Instructions
+
+For detailed instructions on using the application, click the "help" button within the application. This will open a help window with all necessary information.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch with a descriptive name.
+3. Make your changes and commit them with clear and concise messages.
+4. Push your changes to your fork.
+5. Create a pull request with a detailed description of your changes.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+This project uses Python's `tkinter` library for the GUI and `re` for regular expressions. Thanks to the developers and the community for their support and contributions.
+
+## Contact
+
+If you have any questions or suggestions, feel free to open an issue or contact the project maintainer at lavrentijav@gmail.com.
