@@ -31,14 +31,14 @@ This project is a simple graphical application that allows users to encode or de
 
 3. Run the application:
     ```bash
-    python main.py
+    python Encode=Decode_V1.0_NT.py
     ```
 
 ## Usage
 
 1. Open the application:
     ```bash
-    python main.py
+    python Encode=Decode_V1.0_NT.py
     ```
 
 2. Enter the string you want to encode or decode in the "enter string" field.
